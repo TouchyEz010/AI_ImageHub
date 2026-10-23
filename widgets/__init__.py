@@ -1,0 +1,1 @@
+"""Custom animated widgets for AI Image Hub."""

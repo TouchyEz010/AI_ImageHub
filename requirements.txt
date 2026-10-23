@@ -1,0 +1,11 @@
+# 1) Install PyTorch with CUDA FIRST (pick the build matching your NVIDIA driver):
+#      pip install torch --index-url https://download.pytorch.org/whl/cu124
+# 2) Then:  pip install -r requirements.txt
+PyQt6>=6.6
+numpy>=1.26
+Pillow>=10.2
+spandrel>=0.4.0
+rembg>=2.0.59
+onnxruntime-gpu>=1.19        # use "onnxruntime" instead on machines without an NVIDIA GPU
+# Optional: extra spandrel architectures (some are non-commercial licensed)
+# spandrel_extra_arches>=0.2.0

@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Heavy AI Models & Weights (ห้ามเอาขึ้น Git)
+models/
+*.pth
+*.pt
+*.safetensors
+*.onnx
+*.bin
+
+# Environment & Temp
+.venv/
+venv/
+*.part
+*.log
+.vscode/
